@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06 21, 17, 3:19:21 PM
+    Author     : jethro
+*/
+.teeth-container
+{
+    float: none;
+    margin: 40px auto;
+    max-width: 300px;
+    width: 100%;
+}
+
+.tooth
+{
+    position: absolute;
+    display: block;
+    background-color: #e1e1e1;
+}
+
+.tooth:hover
+{
+    cursor: pointer;
+    border: 2px solid #bdbaba;
+}
+
+.tooth.selected
+{
+    border: 2px solid #243852;
+    background: #fff;
+}
+
+.tooth.selected number
+{
+    color: #243852;
+    font-weight: bold;
+}
+
+.tooth number
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.teeth-container .upper
+{
+    margin-bottom: 10px;
+}
+
+.teeth-container .lower
+{
+    margin-top: 10px;
+}
